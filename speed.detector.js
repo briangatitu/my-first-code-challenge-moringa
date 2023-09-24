@@ -4,7 +4,7 @@ function checkSpeed() {
 	const speedLimit = 70;//checks the value of speed if less or equal to speedLimit. If it is, it sets the "output" to "Ok".
 	const kmPerPoint = 5;//represents points charged per km while exceeding limit
     
-
+ 
 	if (speed <= speedLimit) {
 		document.getElementById("output").textContent = "Ok";
 	} else {

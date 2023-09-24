@@ -3,7 +3,7 @@ function getNetSalary(){
     // initialize paye    
     let paye;
 
-    personalRelief = 3000;
+    personalRelief = 3000; 
 
     grossSalary = ("Enter your salary: ")
 

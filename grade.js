@@ -1,7 +1,7 @@
 function calculateGrade() {
     const score = parseInt(document.getElementById("score").value);
 
-    let grade;
+    let grade; 
 
     if (score > 100 || score < 0){
         console.log("Not Applicable!");
