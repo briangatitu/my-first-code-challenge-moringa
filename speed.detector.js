@@ -11,7 +11,7 @@ function checkSpeed() {
 		const points = Math.floor((speed - speedLimit) / kmPerPoint);//for every 5kmperhour exceeding the speed limit, user is charged 1 point for it
 		if (points >= 10) {//if points exceeds 10, the license of user is removed
 			document.getElementById("output").textContent = "License removed";
-		} else {
+		} else { 
 			document.getElementById("output").textContent = `Points: ${points}`;
 		}
 	}
